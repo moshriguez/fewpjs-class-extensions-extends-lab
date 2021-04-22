@@ -14,9 +14,9 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
-    constructor(arrayOfSideLengths) {
-        super(arrayOfSideLengths)
-    }
+    // constructor(arrayOfSideLengths) {
+    //     super(arrayOfSideLengths)
+    // }
 
     get isValid() {
         if (this.countSides === 3) {
@@ -31,9 +31,9 @@ class Triangle extends Polygon {
 }
 
 class Square extends Polygon {
-    constructor(arrayOfSideLengths) {
-        super(arrayOfSideLengths)
-    }
+    // constructor(arrayOfSideLengths) {
+    //     super(arrayOfSideLengths)
+    // }
 
     get isValid() {
         if (this.countSides === 4) {
